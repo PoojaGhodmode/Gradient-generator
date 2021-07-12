@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="containar">
+      <section class="input-options">
+        <h1>Select Colors</h1>
+        <div class="colors">
+          <div class="color">
+            <input type="color" name="" id="1" />
+            <input type="text" name="" id="value-1" />
+          </div>
+          <div class="color">
+            <input type="color" name="" id="2" />
+            <input type="text" name="" id="value-2" />
+          </div>
+        </div>
+        <div class="other">
+          <label for="angle-value">Rotation:</label>
+          <input type="number" name="angle" id="angle-value" />
+        </div>
+        <div class="buttons">
+          <button class="add-btn btn">Add</button>
+          <button class="submit-btn btn">submit</button>
+        </div>
+      </section>
+      <section class="output">
+        <div class="output-box"></div>
+        <div class="output-code">
+          <textarea
+            name="code-area"
+            id="code-area"
+            cols="40"
+            rows="5"
+            readonly
+            placeholder="Your code will appear here"
+          ></textarea>
+          <button id="copy-button " class="btn">Copy</button>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

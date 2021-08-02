@@ -7,7 +7,7 @@
 
 ### CheckList for Features
 
-- [x]Add new colors
+- [x] Add new colors
 - [ ] Input support
 - [ ] Rotation field
 - [ ] Show Code
